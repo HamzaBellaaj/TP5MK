@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tp5App">
         <activity
+            android:name=".ui.liste.ProfileActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

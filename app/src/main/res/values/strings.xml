@@ -2,12 +2,18 @@
     <string name="app_name">tp5App</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">TP 5 Hamza Bellaaj</string>
+    <string name="nav_header_subtitle">Bellaajhamza7@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_liste">"Liste Etudiants "</string>
     <string name="menu_ajout">Ajout d\'un Etudiant</string>
+    <string name="menu_profile">Profile</string>
+    <string name="titre">Liste des Etudiants</string>
+    <string name="id">Identifiant</string>
+    <string name="mail">email</string>
+    <string name="classe">Classe</string>
+    <string name="taj">Formulaire d\'ajout d\'etudiant</string>
 </resources>

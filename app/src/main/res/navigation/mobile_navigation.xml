@@ -15,11 +15,26 @@
         android:id="@+id/nav_liste"
         android:name="com.isetr.tp5app.ui.liste.ListeFragment"
         android:label="@string/menu_liste"
-        tools:layout="@layout/fragment_liste" />
+        tools:layout="@layout/fragment_liste" >
+        <action
+            android:id="@+id/action_nav_liste_to_nav_details"
+            app:destination="@id/nav_profile" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_ajout"
         android:name="com.isetr.tp5app.ui.ajout.AjoutFragment"
         android:label="@string/menu_ajout"
-        tools:layout="@layout/fragment_ajout" />
+        tools:layout="@layout/fragment_ajout" >
+        <action
+            android:id="@+id/action_nav_ajout_to_nav_liste"
+            app:destination="@id/nav_liste"
+            app:popUpTo="@id/nav_ajout"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.isetr.tp5app.ui.Details.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
